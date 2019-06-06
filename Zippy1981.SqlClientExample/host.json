@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "logging": {
+    "fileLoggingMode": "debugOnly",
+    "logLevel": {
+      "Function.MyFunction": "Information",
+      "default": "Trace"
+    },
+    "console": {
+      "isEnabled":  "true"
+    }
+  }
+}
