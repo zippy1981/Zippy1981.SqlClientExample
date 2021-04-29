@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Microsoft.Data.SqlClient
+    versions:
+    - 2.1.1
+  - dependency-name: Microsoft.Azure.Services.AppAuthentication
+    versions:
+    - 1.6.0
